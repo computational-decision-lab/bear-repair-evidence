@@ -1,0 +1,43 @@
+{
+  "released_snapshot_utc": "2026-11-12T23:45:28.126055+00:00",
+  "revision": "20261112_v6",
+  "files": {
+    "paper.pdf": {
+      "bytes": 245114,
+      "sha256": "40837e704479a246f8c1a89a42c6341421457ab4c627ce09f6a74fd09ebf3e78"
+    },
+    "paper.md": {
+      "bytes": 21331,
+      "sha256": "af7f3437dd0f6f7babc60bc865dce5cb9f22487e58571d79d8f501975e351135"
+    },
+    "latex_source.zip": {
+      "bytes": 36247,
+      "sha256": "eba54d1502ea80bafde5a852a810354a416d9c8969d817163f7629720461b94e"
+    },
+    "resources/bear_paper_review_v6.zip": {
+      "bytes": 647894,
+      "sha256": "2ae6bccef2de0edf42ec0deaefcff46203cc9c7f52399e937c825f0faf5461f1"
+    },
+    "resources/bearcheck_0_3_3.zip": {
+      "bytes": 66147,
+      "sha256": "07b9860ea55a5c26523e50fe9a1ee6db19445fb93daa80ac16a1cbf05499d1ba"
+    },
+    "LICENSE": {
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "bytes": 979,
+      "sha256": "a376a2da0030c7176bfd19f475c2466c6c85cd7ea4879c781e9bbc1f91ba3ff7"
+    },
+    "figures/assertion_conformance.png": {
+      "bytes": 180962,
+      "sha256": "63e277f7672b19ef196916f5d93a5d4f22874ab5c3d776b60fef78fdb058920e"
+    },
+    "figures/phase_budget.png": {
+      "bytes": 80033,
+      "sha256": "3710e219d99584baa05a43251a0e85b2ad1fe56fbd03c6b94504aa667544c13d"
+    }
+  },
+  "scope": "Public paper and original/derived companion resources. Does not constitute formal Kaggle Writeup submission."
+}
