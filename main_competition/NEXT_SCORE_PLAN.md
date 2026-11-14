@@ -29,6 +29,8 @@ The package is stored as `submission_31b_minimal_20261115.zip`. It has not been 
 
 The follow-up candidate `submission_31b_source_first_20261115.zip` keeps the six-tool source-only interface and raises the per-task operational ceiling to 60 calls while retaining the four-minute wall-clock budget. Its prompt removes the unavailable skill/graph instructions, requires the first edit by call 4 (and never later than call 8), permits one narrow `run_command` edit fallback after an exact `edit_file` mismatch, and reserves the final 45 seconds for diff review and submission. This is a hypothesis about delivery reliability, not a measured score gain; the archive has not been submitted.
 
+The controlled-search companion `submission_31b_source_first_search_20261115.zip` has the same limits and prompt policy but permits one concrete `search_similar_code` localization call. Its purpose is to separate the effect of the call budget and early editing from the effect of removing the semantic search interface.
+
 ## 3. Keep the search honest
 
 Do not add Graph, EVI, staged subagents, LoRA, or test-witness machinery in the same experiment. The previous staged and adaptive variants did not beat the control. A candidate advances only if it improves accepted repairs on a fresh matched cohort or yields a clear reduction in no-patch failures without lowering acceptance.
