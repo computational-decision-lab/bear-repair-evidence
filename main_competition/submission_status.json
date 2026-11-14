@@ -1,0 +1,23 @@
+{
+  "competition": "gemma-4-developer-agent",
+  "updated_utc": "2026-11-14T04:15:00Z",
+  "submissions": [
+    {
+      "ref": 58289658,
+      "model": "gemma-4-12b-it-qat-w4a16-ct",
+      "policy": "official_prompt",
+      "status": "COMPLETE",
+      "public_score": 0.05,
+      "zip_sha256": "1c13a4685b7bd5111a4359edddcf2731aba778f7e41211866c8488d2f0bd8294"
+    },
+    {
+      "ref": 58330973,
+      "model": "gemma-4-31b-it-qat-w4a16-ct",
+      "policy": "fixed_workflow",
+      "status": "PENDING",
+      "public_score": null,
+      "zip_sha256": "cabaab23c85ff833e4871d9680b169a4c66b17b4ac546bd4bad3a0b579e35675"
+    }
+  ],
+  "interpretation": "The 31B result must be compared with the 12B public score after evaluation. Submission success is not evidence of a score improvement."
+}

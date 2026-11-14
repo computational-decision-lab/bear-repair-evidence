@@ -26,6 +26,10 @@ For an installable, dependency-free diagnostic API/CLI and all 64 designed fixtu
 
 No official problem statements, reference patches, hidden tests, model weights, raw agent trajectories, private replay bodies, credentials, or third-party repository snapshots are redistributed. The published materials contain original source, generic fixtures, and content-limited derived measurements.
 
+## Main competition follow-up
+
+The first official 12B submission scored 0.05 (`58289658`). A 31B fixed-workflow follow-up was submitted on 2026-11-14 (`58330973`) and is recorded as pending in [`main_competition/submission_status.json`](main_competition/submission_status.json). The development audit found no reliable BEAR architecture advantage; the next experiments therefore target patch-delivery reliability and model capacity. See [`main_competition/NEXT_SCORE_PLAN.md`](main_competition/NEXT_SCORE_PLAN.md) and the related Kaggle opportunity in [`opportunities/KAGGLE_20261114.md`](opportunities/KAGGLE_20261114.md).
+
 ## Version and publication status
 
 This repository publishes the previously private v6 review snapshot, without changing its measured results. Statements in the frozen manuscript and archive about private preparation describe their pre-release status; this repository is the subsequent public release. Prospective evaluations are not reported in this manuscript. The v6 companion has been extracted and checked locally; earlier separate-environment reproduction applies to its inherited v5 evidence and generic fixtures, not a new remote v6 run.
