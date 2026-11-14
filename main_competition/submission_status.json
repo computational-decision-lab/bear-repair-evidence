@@ -17,6 +17,14 @@
       "status": "PENDING",
       "public_score": null,
       "zip_sha256": "cabaab23c85ff833e4871d9680b169a4c66b17b4ac546bd4bad3a0b579e35675"
+    },
+    {
+      "ref": null,
+      "model": "gemma-4-31b-it-qat-w4a16-ct",
+      "policy": "minimal_tools_early_patch",
+      "status": "PREPARED_NOT_SUBMITTED",
+      "public_score": null,
+      "zip_sha256": "49bbd0ec6e439c60670da9700b205ebff2a73750cbc4539ecee7e531001112de"
     }
   ],
   "interpretation": "The 31B result must be compared with the 12B public score after evaluation. Submission success is not evidence of a score improvement."

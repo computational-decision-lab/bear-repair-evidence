@@ -19,6 +19,12 @@ The next controlled prompt should add only these rules to the fixed workflow:
 
 This is a delivery policy, not a claim about an optimal controller. Compare it with byte-identical fixed control on the same issues and record first-patch latency, accepted patches, no-patch rate, protected-file attempts, tool calls, and timeout rate.
 
+## 2a. Minimal-tool candidate prepared for the next UTC submission window
+
+The next local candidate is a 31B fixed-workflow package with six declared tools: `run_command`, `read_file`, `edit_file`, `get_status`, `search_similar_code`, and `submit_patch`. It removes `write_file`, the unused graph tools, and the unreferenced skill adviser. This is motivated by the reviewed traces: the fixed policy made 21 `write_file` calls across the 23-issue cohort, while every public reference patch changed existing files and none required a new scratch file. The candidate also makes the early-patch, exact-edit, source-only, and final-submit rules explicit.
+
+The package is stored as `submission_31b_minimal_20261115.zip`. It has not been submitted or scored. Removing tools can reduce capability on unusual tasks, so it advances only after a matched experiment or an informative leaderboard result.
+
 ## 3. Keep the search honest
 
 Do not add Graph, EVI, staged subagents, LoRA, or test-witness machinery in the same experiment. The previous staged and adaptive variants did not beat the control. A candidate advances only if it improves accepted repairs on a fresh matched cohort or yields a clear reduction in no-patch failures without lowering acceptance.

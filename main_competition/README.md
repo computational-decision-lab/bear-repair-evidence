@@ -10,5 +10,6 @@ On 2026-11-14 UTC, the team submitted a 31B fixed-workflow capacity follow-up (`
 - [`NEXT_SCORE_PLAN.md`](NEXT_SCORE_PLAN.md): the controlled experiments most likely to improve PASS rate.
 - [`submission_58289658.zip`](submission_58289658.zip): the first 12B submission archive.
 - [`submission_31b_fixed_20261114.zip`](submission_31b_fixed_20261114.zip): the 31B candidate archive, when copied into this release.
+- [`submission_31b_minimal_20261115.zip`](submission_31b_minimal_20261115.zip): an unsubmitted 31B minimal-tool/early-patch candidate for the next UTC window.
 
 Private task text, hidden tests, reference patches, raw traces, credentials, and repository snapshots are intentionally excluded.
