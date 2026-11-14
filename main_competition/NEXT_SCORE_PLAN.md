@@ -25,6 +25,10 @@ The next local candidate is a 31B fixed-workflow package with six declared tools
 
 The package is stored as `submission_31b_minimal_20261115.zip`. It has not been submitted or scored. Removing tools can reduce capability on unusual tasks, so it advances only after a matched experiment or an informative leaderboard result.
 
+## 2b. Source-first 31B candidate prepared
+
+The follow-up candidate `submission_31b_source_first_20261115.zip` keeps the six-tool source-only interface and raises the per-task operational ceiling to 60 calls while retaining the four-minute wall-clock budget. Its prompt removes the unavailable skill/graph instructions, requires the first edit by call 4 (and never later than call 8), permits one narrow `run_command` edit fallback after an exact `edit_file` mismatch, and reserves the final 45 seconds for diff review and submission. This is a hypothesis about delivery reliability, not a measured score gain; the archive has not been submitted.
+
 ## 3. Keep the search honest
 
 Do not add Graph, EVI, staged subagents, LoRA, or test-witness machinery in the same experiment. The previous staged and adaptive variants did not beat the control. A candidate advances only if it improves accepted repairs on a fresh matched cohort or yields a clear reduction in no-patch failures without lowering acceptance.

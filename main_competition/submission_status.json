@@ -25,6 +25,14 @@
       "status": "PREPARED_NOT_SUBMITTED",
       "public_score": null,
       "zip_sha256": "49bbd0ec6e439c60670da9700b205ebff2a73750cbc4539ecee7e531001112de"
+    },
+    {
+      "ref": null,
+      "model": "gemma-4-31b-it-qat-w4a16-ct",
+      "policy": "source_first_60_calls",
+      "status": "PREPARED_NOT_SUBMITTED",
+      "public_score": null,
+      "zip_sha256": "4386256cd27380d1f489d36bc575c586030cb832bc99bfc6370001aa8ccd8505"
     }
   ],
   "interpretation": "The 31B result must be compared with the 12B public score after evaluation. Submission success is not evidence of a score improvement."
